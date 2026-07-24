@@ -1,0 +1,258 @@
+
+<!-- saved from url=(0060)file:///C:/Users/AL%20uyun%20kibar/Downloads/WIFI%20TES.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>WiFi Pondok Pesantren Al Uyun Kibar</title>
+
+<meta name="description" content="Portal WiFi Pondok Pesantren Al Uyun Kibar">
+
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./WiFi Kamar Abu Hamid_files/css2" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#0F172A,#2563EB);
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.card{
+
+background:rgba(255,255,255,.15);
+
+backdrop-filter:blur(20px);
+
+padding:35px;
+
+border-radius:25px;
+
+width:400px;
+
+text-align:center;
+
+color:white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.4);
+
+}
+
+.logo{
+
+width:100px;
+
+margin-bottom:15px;
+
+}
+
+h1{
+
+font-size:28px;
+
+margin-bottom:5px;
+
+}
+
+.sub{
+
+opacity:.8;
+
+font-size:14px;
+
+margin-bottom:25px;
+
+}
+
+.box{
+
+background:white;
+
+color:#111827;
+
+padding:15px;
+
+border-radius:15px;
+
+margin-bottom:15px;
+
+text-align:left;
+
+}
+
+.label{
+
+font-size:13px;
+
+color:#64748B;
+
+}
+
+.value{
+
+font-size:20px;
+
+font-weight:bold;
+
+margin-top:5px;
+
+}
+
+button{
+
+width:100%;
+
+padding:14px;
+
+border:none;
+
+border-radius:15px;
+
+background:#2563EB;
+
+color:white;
+
+font-size:16px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+margin-top:10px;
+
+}
+
+button:hover{
+
+background:#1D4ED8;
+
+}
+
+.desc{
+
+margin-top:20px;
+
+font-size:13px;
+
+opacity:.9;
+
+line-height:22px;
+
+}
+
+footer{
+
+margin-top:20px;
+
+font-size:12px;
+
+opacity:.7;
+
+}
+
+</style>
+
+
+
+
+
+<div class="card">
+
+<img>
+
+<h1>WiFi Internet</h1>
+
+<div class="sub">
+
+ABU HAMID
+
+</div>
+
+<div class="box">
+
+<div class="label">
+
+📶 Nama WiFi
+
+</div>
+
+<div class="value" id="wifi">
+
+ROOM
+
+</div>
+
+</div>
+
+<div class="box">
+
+<div class="label">
+
+🔑 Password
+
+</div>
+
+<div class="value" id="pass">
+
+ZXCVBNM
+
+</div>
+
+</div>
+
+<button onclick="copyPassword()">
+
+📋 Salin Password
+
+</button>
+
+<div class="desc">
+
+Sistem WiFi menyediakan akses internet untuk mendukung kegiatan belajar serta komunikasi. Gunakan jaringan secara bijak dan jangan lupa waktu.
+
+</div>
+
+<footer>
+
+© 2026 @mhmdal.aziz
+
+</footer>
+
+</div>
+
+<script>
+
+function copyPassword(){
+
+navigator.clipboard.writeText(document.getElementById("pass").innerText);
+
+alert("Password berhasil disalin!");
+
+}
+
+</script>
+
+
+
+</body></html>
